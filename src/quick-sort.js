@@ -4,7 +4,7 @@ function quickSort(input) {
 
           if(! (Array.isArray(input)))
 			  throw Error('input is not an array ');
-          if(input.length < 0)
+          if(input.length == 0)
 			 throw Error('the array has no elements');
 		  else if( input.length == 1)
 			 return input;
